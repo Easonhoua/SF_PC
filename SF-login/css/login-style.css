@@ -1,0 +1,331 @@
+/*初始默认样式*/
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+
+h1, h2, h3, h4, h5, h6{
+    font-size:100%;
+}
+address, cite, dfn, em, var {
+    font-style:normal;
+}
+code, kbd, pre, samp {
+    font-family:couriernew, courier, monospace;
+}
+small{
+    font-size:12px;
+}
+ul, ol {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+/*a:hover {*/
+/*text-decoration:underline;*/
+/*}*/
+sup {
+    vertical-align:text-top;
+}
+sub{
+    vertical-align:text-bottom;
+}
+legend {
+    color:#000;
+}
+fieldset, img {
+    border:0;
+}
+button, input, select, textarea {
+    font-size:100%;
+}
+table {
+    border-collapse:collapse; border-spacing:0;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#uxiconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+/*页面开始*/
+/*头部*/
+body{
+    height: 100%;
+}
+#headerlogo{
+    width:1000px;
+    height: 80px;
+    margin:0 auto;
+    padding-top:12px;
+    /*margin-top:15px;*/
+}
+#headerlogo img{
+    float: left;
+}
+#headerlogo span{
+    font-size: 24px;
+    color:#515151;
+    line-height: 70px;
+    font-weight: 100;
+    float: left;
+}
+
+
+#mainInf{
+    width:1000px;
+    height: 500px;
+    margin:0 auto;
+}
+#mainInf .mainInf-l{
+    /*margin-top:66px;*/
+    margin-top:65px;
+    float: left;
+}
+
+#mainInf .mainInf-r{
+    /*margin-top:66px;*/
+    margin-top:25px;
+    float: left;
+    margin-left:20px;
+    color: #515151;
+}
+#mainInf .mainInf-r .freeReg{
+    display: inline-block;
+    width:70px;
+    height: 25px;
+    background: #fff4f0;
+    border:1px solid #69af05;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #515151;
+    margin-left:248px;
+}
+
+
+.mainInf-form{
+    width:398px;
+    height: 398px;
+    border: 1px solid #cdcdcd;
+    margin-top:10px;
+}
+
+/*.mainInf-form span{*/
+    /**/
+/*}*/
+.mainInf-form .span1{
+    border-top:2px solid #6e9b0c;
+    width:198px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    display: block;
+}
+#span1_icon{
+    color:#6e9b0c;
+}
+
+
+
+
+.mainInf-form .span2{
+    border-left:1px solid #cdcdcd;
+    border-bottom:1px solid #cdcdcd;
+    width:198px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    display: block;
+}
+
+.loginBox{
+    padding-left:33px;
+    padding-top:50px;
+    position: relative;
+}
+.loginBox ul li{
+    width:324px;
+    height: 64px;
+}
+.loginBox p{
+    font-size: 12px;
+}
+.loginBox .hide1{
+    height: 30px;
+    position: relative;
+}
+.loginBox .hide2{
+    height: 30px;
+    position: relative;
+}
+
+.loginBox input{
+    width:320px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #dadada;
+}
+
+#icon_user{
+    position: absolute;
+    font-size: 20px;
+    top:72px;
+    right: 56px;
+    opacity: 0.4;
+}
+#icon_psw{
+    position: absolute;
+    font-size: 20px;
+    top:152px;
+    right: 56px;
+    opacity: 0.4;
+}
+.loginBox .loginyzm{
+    width:104px;
+    height: 36px;
+    float: left;
+}
+.loginBox .yzm{
+    width:104px;
+    height: 34px;
+    border:1px solid #000;
+    display: block;
+    float: left;
+    margin-left:10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
+.loginBox .forgetpsw{
+    font-size: 12px;
+    /*float: left;*/
+    position: absolute;
+    bottom: 56px;
+    right: 36px;
+    color: #815181;
+}
+.loginBox .forgetpsw:hover{
+    text-decoration:underline;
+}
+.loginBox .btn{
+    width:322px;
+    height: 40px;
+    background: #6e9b0c;
+    border-radius:4px ;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+
+
+.confirm1{
+	width:320px;
+	height: 20px;
+	border: 1px solid #fa9600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fa9600;
+	text-align: center;
+	display: none;
+	position: absolute;
+	top:0;
+}
+
+.confirm2{
+	width:320px;
+	height: 20px;
+	border: 1px solid #fa9600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fa9600;
+	text-align: center;
+	display: none;
+	top:0;
+}
+
+.confirm3{
+	width:104px;
+	height: 20px;
+	border: 1px solid #fa9600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fa9600;
+	text-align: center;
+	display: none;
+	
+	position: absolute;
+	 bottom: 49px;
+	 left:33px;
+}
+
+
+.company{
+    width:398px;
+    height: 56px;
+    border-top:1px solid #cdcdcd ;
+    margin-top:18px;
+}
+
+.company ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.company ul li{
+    margin:10px 0;
+    width:72px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right:1px solid  #cdcdcd;
+}
+.company ul li i{
+    font-size: 20px;
+}
+.company ul li a{
+    font-size: 12px;
+    color: #815181;
+}
+.company ul li a:hover{
+    color: #6e9b0c;
+    text-decoration: underline;
+}
+
+
+
+/*底部*/
+
+#footer{
+    height: 104px;
+    font-size: 12px;
+    text-align: center;
+    padding-top:20px;
+    line-height: 24px;
+    color: #666666;
+}
+#footer a{
+    color: #666666;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+
+
